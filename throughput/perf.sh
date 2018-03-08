@@ -44,7 +44,7 @@ sl=1
 ic=X/256
 fi
 for j in `seq 1 $max`; do {
-cmd="./aes1 "$inst
+cmd="./tp "$inst
 #echo $cmd
 $cmd & pid=$!
 PID_LIST+="$pid,";
