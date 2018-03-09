@@ -13,6 +13,7 @@ PID_LIST=0
 sl=0
 inst=0
 ic=0
+echo " " > perf.out1
 echo " " > results.perf
 for l in 1 2 4 8 ; do {
 max=$l
