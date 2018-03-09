@@ -65,7 +65,7 @@ kill -INT $pp
 cat perf.out1 >> results.perf
 } done
 } done
-cat results.perf
+#cat results.perf
 echo "PLEASE PRESS CTRL+C to STOP the docker run"
 perf stat -p $PID_LIST -o extra.out
 echo "All processes have completed"
