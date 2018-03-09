@@ -31,7 +31,7 @@ fi
 ID=`sudo docker ps -a | grep 27091991/202latency | awk '{print $1}'`
 echo $ID > file 
 ID2=`awk '{print $1}' file`
-echo "key files are being copied. [execute ./delete.sh to delete them, other-wise they will stay in the current folder]"  
+echo "key files are being copied. [execute ./202Project/delete.sh to delete them, other-wise they will stay in the current folder]"  
 public="public"
 private="private"
 for i in `seq 1 $max`
