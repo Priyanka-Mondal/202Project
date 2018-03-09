@@ -58,7 +58,7 @@ echo $max" Processes with\"$ic\" instructions" >> results.perf
 #perf stat -e branch-misses -x, -I 100 -p $PID_LIST -o x.csv &
 pp=$!
 sleep $sl
-kill -INT $pp
+#kill -INT $pp
 #cd pmu-tools
 #./interval-plot.py x.csv
 #cd ..
