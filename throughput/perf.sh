@@ -53,7 +53,7 @@ echo "RUNNING..."$max" Processes with\"$ic\" instructions"
 echo $max" Processes with\"$ic\" instructions" >> results.perf
 #echo $PID_LIST 
 #perf stat -p $PID_LIST & 
-perf stat -B -e task-clock,instructions,cycles,branches,branch-misses,L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,L1-dcache-store-misses,ref24,r3f24,r08d1,r01d1 -p $PID_LIST -o perf.out1 &
+#perf stat -B -e task-clock,instructions,cycles,branches,branch-misses,L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,L1-dcache-store-misses,ref24,r3f24,r08d1,r01d1 -p $PID_LIST -o perf.out1 &
 #perf stat -e branch-misses -x, -I 100 -p $PID_LIST -o x.csv &
 pp=$!
 sleep $sl
