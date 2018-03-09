@@ -1,0 +1,399 @@
+ 
+1 Processes with"X" instructions
+# started on Fri Mar  9 19:01:29 2018
+
+
+ Performance counter stats for process id '8,':
+
+     381898.750791      task-clock (msec)         #    0.955 CPUs utilized          
+     3651433038820      instructions              #    2.84  insns per cycle          (100.00%)
+     1286777317372      cycles                    #    3.369 GHz                      (100.00%)
+      216082529957      branches                  #  565.811 M/sec                    (100.00%)
+          23038523      branch-misses             #    0.01% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          25573166      ref24                     #    0.067 M/sec                    (100.00%)
+          13541409      r3f24                     #    0.035 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     399.991101532 seconds time elapsed
+
+1 Processes with"X/4" instructions
+# started on Fri Mar  9 19:08:09 2018
+
+
+ Performance counter stats for process id '15,':
+
+      84309.612921      task-clock (msec)         #    0.649 CPUs utilized          
+      811397112538      instructions              #    2.84  insns per cycle          (100.00%)
+      285510169636      cycles                    #    3.386 GHz                      (100.00%)
+       48015099690      branches                  #  569.509 M/sec                    (100.00%)
+           5053360      branch-misses             #    0.01% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+           3888602      ref24                     #    0.046 M/sec                    (100.00%)
+           2061305      r3f24                     #    0.024 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     129.998699190 seconds time elapsed
+
+1 Processes with"X/16" instructions
+# started on Fri Mar  9 19:10:19 2018
+
+
+ Performance counter stats for process id '22,':
+
+      24997.191415      task-clock (msec)         #    1.000 CPUs utilized          
+      239491683531      instructions              #    2.84  insns per cycle          (100.00%)
+       84286811727      cycles                    #    3.372 GHz                      (100.00%)
+       14172458493      branches                  #  566.962 M/sec                    (100.00%)
+             48328      branch-misses             #    0.00% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+           1577711      ref24                     #    0.063 M/sec                    (100.00%)
+            843777      r3f24                     #    0.034 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+      24.997165451 seconds time elapsed
+
+1 Processes with"X/64" instructions
+# started on Fri Mar  9 19:10:44 2018
+
+
+ Performance counter stats for process id '29,':
+
+       1708.966478      task-clock (msec)         #    0.343 CPUs utilized          
+       16120844255      instructions              #    2.84  insns per cycle          (100.00%)
+        5679609688      cycles                    #    3.323 GHz                      (100.00%)
+         954005794      branches                  #  558.236 M/sec                    (100.00%)
+            202416      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+             97238      ref24                     #    0.057 M/sec                    (100.00%)
+             65420      r3f24                     #    0.038 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       4.987176839 seconds time elapsed
+
+1 Processes with"X/256" instructions
+# started on Fri Mar  9 19:10:49 2018
+
+
+ Performance counter stats for process id '36,':
+
+        422.270053      task-clock (msec)         #    0.424 CPUs utilized          
+        4024422637      instructions              #    2.84  insns per cycle          (100.00%)
+        1418285747      cycles                    #    3.359 GHz                      (100.00%)
+         238188003      branches                  #  564.066 M/sec                    (100.00%)
+             50849      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+             42585      ref24                     #    0.101 M/sec                    (100.00%)
+             26087      r3f24                     #    0.062 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       0.995765401 seconds time elapsed
+
+2 Processes with"X" instructions
+# started on Fri Mar  9 19:10:50 2018
+
+
+ Performance counter stats for process id '43,44,':
+
+     799976.355117      task-clock (msec)         #    2.000 CPUs utilized          
+     7293085679216      instructions              #    2.84  insns per cycle          (100.00%)
+     2569222417852      cycles                    #    3.212 GHz                      (100.00%)
+      431582088686      branches                  #  539.494 M/sec                    (100.00%)
+          48060551      branch-misses             #    0.01% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          33688569      ref24                     #    0.042 M/sec                    (100.00%)
+          19039956      r3f24                     #    0.024 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     399.993469782 seconds time elapsed
+
+2 Processes with"X/4" instructions
+# started on Fri Mar  9 19:17:30 2018
+
+
+ Performance counter stats for process id '51,52,':
+
+     177915.557948      task-clock (msec)         #    1.369 CPUs utilized          
+     1622442907686      instructions              #    2.84  insns per cycle          (100.00%)
+      571139838854      cycles                    #    3.210 GHz                      (100.00%)
+       96012302193      branches                  #  539.651 M/sec                    (100.00%)
+          17810497      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          10905306      ref24                     #    0.061 M/sec                    (100.00%)
+           6350390      r3f24                     #    0.036 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     129.986343589 seconds time elapsed
+
+2 Processes with"X/16" instructions
+# started on Fri Mar  9 19:19:40 2018
+
+
+ Performance counter stats for process id '59,60,':
+
+      49969.025416      task-clock (msec)         #    1.999 CPUs utilized          
+      457137513373      instructions              #    2.84  insns per cycle          (100.00%)
+      160894190088      cycles                    #    3.220 GHz                      (100.00%)
+       27052268697      branches                  #  541.381 M/sec                    (100.00%)
+           2602745      branch-misses             #    0.01% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+           3081982      ref24                     #    0.062 M/sec                    (100.00%)
+           1605767      r3f24                     #    0.032 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+      24.994157675 seconds time elapsed
+
+2 Processes with"X/64" instructions
+# started on Fri Mar  9 19:20:05 2018
+
+
+ Performance counter stats for process id '67,68,':
+
+       3691.358588      task-clock (msec)         #    0.738 CPUs utilized          
+       32437807778      instructions              #    2.83  insns per cycle          (100.00%)
+       11442284041      cycles                    #    3.100 GHz                      (100.00%)
+        1920285899      branches                  #  520.211 M/sec                    (100.00%)
+            381630      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+            907779      ref24                     #    0.246 M/sec                    (100.00%)
+            560769      r3f24                     #    0.152 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       5.003971674 seconds time elapsed
+
+2 Processes with"X/256" instructions
+# started on Fri Mar  9 19:20:10 2018
+
+
+ Performance counter stats for process id '75,76,':
+
+        866.622024      task-clock (msec)         #    0.866 CPUs utilized          
+        7921979583      instructions              #    2.84  insns per cycle          (100.00%)
+        2785421698      cycles                    #    3.214 GHz                      (100.00%)
+         468857022      branches                  #  541.017 M/sec                    (100.00%)
+             21877      branch-misses             #    0.00% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+             72214      ref24                     #    0.083 M/sec                    (100.00%)
+             53782      r3f24                     #    0.062 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       1.000659166 seconds time elapsed
+
+4 Processes with"X" instructions
+# started on Fri Mar  9 19:20:12 2018
+
+
+ Performance counter stats for process id '83,84,85,86,':
+
+    1577366.123862      task-clock (msec)         #    3.943 CPUs utilized          
+    13838957543353      instructions              #    2.84  insns per cycle          (100.00%)
+     4877501836572      cycles                    #    3.092 GHz                      (100.00%)
+      819081879137      branches                  #  519.272 M/sec                    (100.00%)
+         168096040      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+         277414799      ref24                     #    0.176 M/sec                    (100.00%)
+         177764984      r3f24                     #    0.113 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     399.997948136 seconds time elapsed
+
+4 Processes with"X/4" instructions
+4 Processes with"X/16" instructions
+# started on Fri Mar  9 19:29:02 2018
+
+
+ Performance counter stats for process id '103,104,105,106,':
+
+      98839.246844      task-clock (msec)         #    3.954 CPUs utilized          
+      867845416726      instructions              #    2.84  insns per cycle          (100.00%)
+      305625300455      cycles                    #    3.092 GHz                      (100.00%)
+       51376049757      branches                  #  519.794 M/sec                    (100.00%)
+          10670461      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          17234062      ref24                     #    0.174 M/sec                    (100.00%)
+           9512732      r3f24                     #    0.096 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+      24.995972849 seconds time elapsed
+
+4 Processes with"X/64" instructions
+# started on Fri Mar  9 19:29:27 2018
+
+
+ Performance counter stats for process id '113,114,115,116,':
+
+       7374.405716      task-clock (msec)         #    1.480 CPUs utilized          
+       64752077369      instructions              #    2.84  insns per cycle          (100.00%)
+       22802712954      cycles                    #    3.092 GHz                      (100.00%)
+        3832616031      branches                  #  519.719 M/sec                    (100.00%)
+            662206      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+           1382742      ref24                     #    0.188 M/sec                    (100.00%)
+            780697      r3f24                     #    0.106 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       4.982415624 seconds time elapsed
+
+4 Processes with"X/256" instructions
+8 Processes with"X" instructions
+# started on Fri Mar  9 19:29:33 2018
+
+
+ Performance counter stats for process id '133,134,135,136,137,138,139,140,':
+
+    1579934.923219      task-clock (msec)         #    3.950 CPUs utilized          
+    13869177172327      instructions              #    2.84  insns per cycle          (100.00%)
+     4885265297639      cycles                    #    3.092 GHz                      (100.00%)
+      820903853230      branches                  #  519.581 M/sec                    (100.00%)
+         174016930      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+         336911162      ref24                     #    0.213 M/sec                    (100.00%)
+         199505665      r3f24                     #    0.126 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     399.996306752 seconds time elapsed
+
+8 Processes with"X/4" instructions
+# started on Fri Mar  9 19:36:13 2018
+
+
+ Performance counter stats for process id '147,148,149,150,151,152,153,154,':
+
+     256355.303777      task-clock (msec)         #    1.972 CPUs utilized          
+     2242773765683      instructions              #    2.83  insns per cycle          (100.00%)
+      792607584870      cycles                    #    3.092 GHz                      (100.00%)
+      132753580712      branches                  #  517.850 M/sec                    (100.00%)
+          27794866      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          67317971      ref24                     #    0.263 M/sec                    (100.00%)
+          40684466      r3f24                     #    0.159 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+     129.966152663 seconds time elapsed
+
+8 Processes with"X/16" instructions
+# started on Fri Mar  9 19:38:23 2018
+
+
+ Performance counter stats for process id '161,162,163,164,165,166,167,168,':
+
+      42799.712594      task-clock (msec)         #    1.715 CPUs utilized          
+      375265625553      instructions              #    2.84  insns per cycle          (100.00%)
+      132323989548      cycles                    #    3.092 GHz                      (100.00%)
+       22212735185      branches                  #  518.993 M/sec                    (100.00%)
+           4554146      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+          12063737      ref24                     #    0.282 M/sec                    (100.00%)
+           7665500      r3f24                     #    0.179 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+      24.950177932 seconds time elapsed
+
+8 Processes with"X/64" instructions
+# started on Fri Mar  9 19:38:48 2018
+
+
+ Performance counter stats for process id '175,176,177,178,179,180,181,182,':
+
+       6120.879332      task-clock (msec)         #    1.235 CPUs utilized          
+       53375386030      instructions              #    2.82  insns per cycle          (100.00%)
+       18922480849      cycles                    #    3.091 GHz                      (100.00%)
+        3159568895      branches                  #  516.195 M/sec                    (100.00%)
+            616654      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+           2004345      ref24                     #    0.327 M/sec                    (100.00%)
+           1197550      r3f24                     #    0.196 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       4.957530467 seconds time elapsed
+
+8 Processes with"X/256" instructions
+# started on Fri Mar  9 19:38:53 2018
+
+
+ Performance counter stats for process id '189,190,191,192,193,194,195,196,':
+
+        862.387165      task-clock (msec)         #    0.926 CPUs utilized          
+        7573202843      instructions              #    2.84  insns per cycle          (100.00%)
+        2665841388      cycles                    #    3.091 GHz                      (100.00%)
+         448277029      branches                  #  519.809 M/sec                    (100.00%)
+             93686      branch-misses             #    0.02% of all branches          (100.00%)
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      L1-dcache-stores         
+   <not supported>      L1-dcache-store-misses   
+            291163      ref24                     #    0.338 M/sec                    (100.00%)
+            186561      r3f24                     #    0.216 M/sec                    (100.00%)
+                 0      r08d1                     #    0.000 K/sec                    (100.00%)
+                 0      r01d1                     #    0.000 K/sec                  
+
+       0.931272629 seconds time elapsed
+
