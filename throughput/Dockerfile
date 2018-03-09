@@ -1,7 +1,7 @@
 FROM ubuntu 
 MAINTAINER priyanka (priyanka02010@gmail.com)
-COPY . /docker-curriculum/throughput
-WORKDIR  /docker-curriculum/throughput
+COPY . /priyanka-mondal-202/throughput
+WORKDIR  /priyanka-mondal-202/throughput
 RUN apt-get update && apt-get install -y openssl 
 RUN apt-get update && apt-get install -y libssl-dev 
 RUN apt-get update && apt-get -y install linux-tools-`uname -r`

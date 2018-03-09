@@ -14,7 +14,7 @@ sl=0
 inst=0
 ic=0
 echo " " > results.perf
-for l in 1 2 4 8; do {
+for l in 1 2 4 8 ; do {
 max=$l
 for k in 1 2 3 4 5; do {
 unset PID_LIST 
@@ -53,9 +53,13 @@ echo $max" Processes with\"$ic\" instructions" >> results.perf
 #echo $PID_LIST 
 #perf stat -p $PID_LIST & 
 perf stat -B -e task-clock,instructions,cycles,branches,branch-misses,L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,L1-dcache-store-misses,ref24,r3f24,r08d1,r01d1 -p $PID_LIST -o perf.out1 &
+#perf stat -e branch-misses -x, -I 100 -p $PID_LIST -o x.csv &
 pp=$!
 sleep $sl
 kill -INT $pp
+#cd pmu-tools
+#./interval-plot.py x.csv
+#cd ..
 cat perf.out1 >> results.perf
 } done
 } done
